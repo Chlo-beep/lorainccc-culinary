@@ -1304,6 +1304,10 @@ ul.bullet-arrow li:before {
   float: left;
   width: 1.4em; }
 
+ul,ol {
+    margin: 2.5rem 0 1rem 2.5rem;
+}
+
 /*!
 Section 4: Header
 */
