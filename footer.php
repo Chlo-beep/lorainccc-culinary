@@ -39,7 +39,7 @@ $facebook_url = get_field('facebook_url', 'option');
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
-								<h2>Connect Heading Needed</h2>
+								<h2>Connect With Us</h2>
 								
 								<ul class="footer-sm-links menu">
 								
