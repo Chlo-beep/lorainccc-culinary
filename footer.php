@@ -35,7 +35,7 @@ $facebook_url = get_field('facebook_url', 'option');
 						
 							<div class="small-12 medium-4 columns">
 							
-								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/LCCC-Campana-logo-white.png" alt="Campana Center for Ideation adn Invention of Lorain County Community College" />
+								<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-logo-white.png" alt="Campana Center for Ideation adn Invention of Lorain County Community College" />
 								
 								<?php if( $twitter_url || $instagram_url || $facebook_url ) : ?>
 								
