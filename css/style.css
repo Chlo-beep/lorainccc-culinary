@@ -1942,5 +1942,5 @@ table.outerformtablerows tbody {
 div.afnavbuttons input[type=submit] {
   margin: 0 10px 0 0; }
 
-.website-feedback{margin:10px 0;float:left;width:100%}
+.website-feedback{margin:10px 0;float:left;width:100%;font-size:.75rem;}
 .website-feedback a{text-decoration:none}.website-feedback a:hover{text-decoration:underline}
