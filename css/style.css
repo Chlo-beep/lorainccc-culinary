@@ -1347,8 +1347,10 @@ transform-origin: center left;
       header:not(.article-header):not(.entry-header).smaller .top-bar {
         height: 80px; }
         header:not(.article-header):not(.entry-header).smaller .top-bar .logo {
-          height: 56px;
-          width: 225px; }
+          transform: scale3d(0.7, 0.7, 1);
+										-webkit-transform: scale3d(0.7, 0.7, 1);
+										transform-origin: center left;
+								}
         header:not(.article-header):not(.entry-header).smaller .top-bar .menu:not(.submenu):not(.is-dropdown-submenu) li a {
           padding: 0 1rem; }
         header:not(.article-header):not(.entry-header).smaller .top-bar .menu:not(.submenu):not(.is-dropdown-submenu) li:last-child a {
