@@ -1316,7 +1316,12 @@ header:not(.article-header):not(.entry-header) {
   width: 100%;
   background: #fefefe; }
   header:not(.article-header):not(.entry-header) .logo {
-    transition: all .3s ease; }
+    transition: transform .4s;
+-webkit-transition: -webkit-transform .4s;
+transform: scale3d(1, 1, 1);
+-webkit-transform: scale3d(1, 1, 1);
+transform-origin: center left;
+ }
   @media screen and (min-width: 64em) {
     header:not(.article-header):not(.entry-header) {
       position: fixed;
