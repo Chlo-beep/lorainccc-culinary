@@ -14,7 +14,7 @@
 			
 				<div class="float-right">
 				
-					<img role="button" tabindex="0" class="search-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/icon-search.png" alt="search" data-toggle="gcs-container" />
+					<img role="button" tabindex="-1" class="search-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/icon-search.png" alt="search" data-toggle="gcs-container" />
 				
 				</div>
 			
@@ -62,7 +62,7 @@
 							
 			<div class="large-1 columns">
 								
-				<img role="button" tabindex="0" class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="gcs-container" />
+				<img role="button" tabindex="-1" class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="gcs-container" />
 							
 			</div>
 						
