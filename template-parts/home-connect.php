@@ -62,15 +62,15 @@ $facebook_url = get_field('facebook_url', 'option');
 	
 		<div class="small-12 columns">
 		
-			<ul class="vertical medium-horizontal menu home-sm-links-list align-center">
+			<ul role="presentation" class="vertical medium-horizontal menu home-sm-links-list align-center">
 			
 				<?php if( $twitter_url ) : ?>
 				
 				<li>
 				
-					<a href="<?php echo $twitter_url; ?>" target="_blank" title="Connect with Campana Center of Ideation and Invention on Twitter">
+					<a href="<?php echo $twitter_url; ?>" target="_blank" title="">
 					
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter-icon-blue.svg" alt="Twitter" height="36" width="36" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter-icon-blue.svg" alt="Connect with Culinary Arts on Twitter" height="36" width="36" />
 						
 						<?php if( $twitter_handle ) :
 						
@@ -88,9 +88,9 @@ $facebook_url = get_field('facebook_url', 'option');
 				
 				<li>
 				
-					<a href="<?php echo $instagram_url; ?>" target="_blank" title="Connect with Campana Center of Ideation and Invention on Instagram">
+					<a href="<?php echo $instagram_url; ?>" target="_blank" title="">
 					
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram-icon-blue.svg" alt="Instagram" height="36" width="36" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram-icon-blue.svg" alt="Connect with Culinary Arts on Instagram" height="36" width="36" />
 						
 						<?php if( $instagram_handle ) :
 						
@@ -108,9 +108,9 @@ $facebook_url = get_field('facebook_url', 'option');
 				
 				<li>
 				
-					<a href="<?php echo $facebook_url; ?>" target="_blank" title="Connect with Campana Center of Ideation and Invention on Facebook">
+					<a href="<?php echo $facebook_url; ?>" target="_blank" title="">
 					
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook-icon-blue.svg" alt="Facebook" height="36" width="36" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook-icon-blue.svg" alt="Connect with Culinary Arts on Facebook" height="36" width="36" />
 						
 						<?php if( $facebook_handle ) :
 						

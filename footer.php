@@ -41,15 +41,15 @@ $facebook_url = get_field('facebook_url', 'option');
 								
 								<h2>Connect With Us</h2>
 								
-								<ul class="footer-sm-links menu">
+								<ul role="presentation" class="footer-sm-links menu">
 								
 									<?php if( $twitter_url ) : ?>
 									
-									<li><a href="<?php echo $facebook_url; ?>" title="Follow LCCC Culinary Arts on Facebook" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Facebook icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $facebook_url; ?>" title="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/facebook_white.svg" alt="Follow Culinary Arts on Facebook" height="30" width="30" /></a></li>
 									
-									<li><a href="<?php echo $twitter_url; ?>" title="Follow LCCC Culinary Arts on Twitter" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Twitter icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $twitter_url; ?>" title="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/twitter_white.svg" alt="Follow LCCC Culinary Arts on Twitter" height="30" width="30" /></a></li>
 									
-									<li><a href="<?php echo $instagram_url; ?>" title="Follow LCCC Culinary Arts on Instagram" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Instagram icon" height="30" width="30" /></a></li>
+									<li><a href="<?php echo $instagram_url; ?>" title="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/instagram_white.svg" alt="Follow LCCC Culinary Arts on Instagram" height="30" width="30" /></a></li>
 									
 									<?php endif; ?>
 									

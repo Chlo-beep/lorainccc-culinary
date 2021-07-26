@@ -4,7 +4,7 @@
 	
 		<div class="top-bar-title">
 		
-			<a href="<?php echo home_url(); ?>" title="Link to Homepage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-logo.png" alt="Culinary Arts Institute of Lorain County Community College" class="logo" height="64" width="254" /></a>
+			<a href="<?php echo home_url(); ?>" title=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lccc-culinary-logo.png" alt="Culinary Arts Institute of Lorain County Community College" class="logo" height="64" width="254" /></a>
 			
 		</div>
 		
@@ -14,7 +14,7 @@
 			
 				<div class="float-right">
 				
-					<img class="search-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/icon-search.png" alt="search" data-toggle="gcs-container" />
+					<img role="button" tabindex="-1" class="search-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/icon-search.png" alt="search" data-toggle="gcs-container" />
 				
 				</div>
 			
@@ -40,7 +40,7 @@
 		
 		<div class="top-bar-right float-right offcanvas-top-bar hide-for-large text-right">
 		
-			<button class="menu-icon dark" type="button" data-toggle="offCanvas"></button>
+			<button class="menu-icon dark" type="button" data-toggle="offCanvas">Toggle Menu</button>
 			
 		</div>
 		
@@ -62,7 +62,7 @@
 							
 			<div class="large-1 columns">
 								
-				<img class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="gcs-container" />
+				<img role="button" tabindex="-1" class="search-close" src="<?php echo get_stylesheet_directory_uri(); ?>/images/icons/search-close.svg" height="35" width="35" alt="close search box" data-toggle="gcs-container" />
 							
 			</div>
 						
