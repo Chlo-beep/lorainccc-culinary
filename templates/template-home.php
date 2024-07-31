@@ -27,11 +27,11 @@ Template Name: Home
 		
 		get_template_part( 'template-parts/home', 'connect' );
 		
-		get_template_part( 'template-parts/home', 'events' );
+		//get_template_part( 'template-parts/home', 'events' );
 		
-		get_template_part( 'template-parts/content', 'shadow-divider' );
+		//get_template_part( 'template-parts/content', 'shadow-divider' );
 		
-		get_template_part( 'template-parts/home', 'news' );
+		//get_template_part( 'template-parts/home', 'news' );
 		
 		?>
 	
