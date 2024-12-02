@@ -185,8 +185,8 @@ Section 5: Navigation
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li.is-dropdown-submenu-parent>a::after{display:none}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child a{padding-right:0}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:first-child>a{padding-left:0}
-.main-nav-container>div .menu .active>a{color:#067986
-     !important}.off-canvas{height:100%;background-color:#003b76}
+.main-nav-container>div .menu .active>a{color: #067986 !important; font-weight: 700;
+}.off-canvas{height:100%;background-color:#003b76}
 .off-canvas .menu li a{font-family:"Raleway",sans-serif;font-weight:600;color:#fefefe;padding-top:1rem;padding-bottom:1rem;border-bottom:1px solid #067986
 }
 .off-canvas .menu li a:hover{text-decoration:none}.off-canvas .menu li a::after{border-top-color:#fefefe}
